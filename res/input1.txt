@@ -1,0 +1,27 @@
+load HOUSE.png y
+mosaic 200
+save HOUSEMosaic.png y
+load HOUSE.png y
+blur
+save HOUSEBlur.png y
+load HOUSE.png y
+sharpen
+save HOUSESharpen.png y
+load HOUSE.png y
+sepia
+save HOUSESepia.png y
+load HOUSE.png y
+grey
+save HOUSEGrey.png y
+load HOUSE.png y
+dither 8
+save HOUSEDither.png y
+load HOUSE.png y 
+reduce 8
+save HOUSEReduce.png y
+load HOUSE.png y
+pixelate 70
+save HOUSEPixelate.png y
+pattern
+savePattern HOUSEPattern.txt y
+quit

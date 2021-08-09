@@ -1,0 +1,27 @@
+load SALAD1.png y
+mosaic 200
+save SALAD1Mosaic.png y
+load SALAD1.png y
+blur
+save SALAD1Blur.png y
+load SALAD1.png y
+sharpen
+save SALAD1Sharpen.png y
+load SALAD1.png y
+sepia
+save SALAD1Sepia.png y
+load SALAD1.png y
+grey
+save SALAD1Grey.png y
+load SALAD1.png y
+dither 8
+save SALAD1Dither.png y
+load SALAD1.png y
+reduce 8
+save SALAD1Reduce.png y
+load SALAD1.png y
+pixelate 50
+save SALAD1Pixelate.png y
+pattern 
+savePattern SALAD1Pattern.txt y
+quit
